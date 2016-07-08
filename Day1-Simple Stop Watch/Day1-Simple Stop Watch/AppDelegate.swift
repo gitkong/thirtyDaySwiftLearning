@@ -16,7 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var nav : UINavigationController?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        
         UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent;
         
         self.window = UIWindow.init()
