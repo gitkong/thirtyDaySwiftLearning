@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     var btn : UIButton?
     
     var flag : Bool = false
-    
+     
     override func viewDidLoad() {
         super.viewDidLoad()
 
