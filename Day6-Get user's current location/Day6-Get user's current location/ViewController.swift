@@ -84,7 +84,6 @@ extension ViewController : CLLocationManagerDelegate {
                 self.locationLabel?.text = "error = " + (error?.description)!
             }
             else{
-//                CLPlacemark
                 let placemark = placemarks?.first
                 print(placemark?.name)
                 self.locationLabel?.text = placemark?.name
